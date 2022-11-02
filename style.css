@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    background: #902779;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px  30px;
+}
+.nav-list ul li{
+    display: inline-block;
+    padding: 10px 20px ;
+}
+.nav-list ul li a{
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+.logo{
+    margin: 13px;
+    color: #fff;
+}
+button{
+    padding: 10px;
+    background: #000;
+    color: #fff;
+    border-radius: 10px;
+}
